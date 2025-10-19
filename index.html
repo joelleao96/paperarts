@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Site da Papelaria — Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page">
+  <header class="site-header">
+    <h1 class="brand">Papelaria Criativa</h1>
+    <p class="subtitle">Minimalista • Leve • Loja e catálogo</p>
+  </header>
+
+  <main class="home-grid">
+    <a class="home-card" href="caderneta.html">
+      <div class="icon">📔</div>
+      <div class="label">Cadernetas de Saúde</div>
+    </a>
+
+    <a class="home-card" href="agendas.html">
+      <div class="icon">📒</div>
+      <div class="label">Agendas e Planners</div>
+    </a>
+
+    <a class="home-card" href="personalizados.html">
+      <div class="icon">🎁</div>
+      <div class="label">Personalizados</div>
+    </a>
+
+    <a class="home-card" href="volta-aulas.html">
+      <div class="icon">✏️</div>
+      <div class="label">Volta às Aulas</div>
+    </a>
+
+    <a class="home-card" href="datas-comemorativas.html">
+      <div class="icon">🎉</div>
+      <div class="label">Datas Comemorativas</div>
+    </a>
+  </main>
+
+  <footer class="footer">© <span id="year"></span> Papelaria Criativa</footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
